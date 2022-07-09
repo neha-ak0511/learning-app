@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Neha-Assessment</title>
+    <link rel="stylesheet" href="assessment-0907.css">
+
+    <script>
+        function myFunction(){
+            var uname = document.getElementById("username").value;
+            var pword = document.getElementById("password").value;
+            console.log(uname);
+            console.log(pword)
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="subparent">
+            <form>
+                <div class="container">
+                    <h2> Login To Your Account</h2>
+                    <div class="userinput">
+                        <input type="text" placeholder="Username" id="username" />
+                    </div>
+                    <div class="passwordinput">
+                        <input type="password" placeholder="Password" id="password" />
+                    </div>
+
+                    <button onclick="myFunction()">Login</button>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

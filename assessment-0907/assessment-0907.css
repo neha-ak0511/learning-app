@@ -1,0 +1,49 @@
+button {
+    background-color: rgb(11, 185, 253);
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    width: 200px;
+    border: none;
+    
+  }
+  .userinput, .passwordinput{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 200px;
+    margin: 8px 0;
+    
+
+  }
+  input[type=text], input[type=password]{
+    padding: 5px;
+    width:200px;
+    box-sizing:border-box ;
+  }
+  h2{
+    color:rgb(11, 185, 253)
+  }
+  .container {
+    background-color: white;
+    padding:30px ;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subparent{
+    background-color: rgb(11, 185, 253);
+    padding: 70px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .parent{
+    background-color: purple;
+    padding: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
